@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "deploy": "gh-pages -d src "
+
   },
   "repository": {
     "type": "git",
@@ -16,5 +17,8 @@
   "bugs": {
     "url": "https://github.com/arguellomati/MatiasArguello/issues"
   },
-  "homepage": "https://github.com/arguellomati/MatiasArguello#readme"
+  "homepage": "https://github.com/arguellomati/MatiasArguello#readme",
+  "devDependencies": {
+    "gh-pages": "^5.0.0"
+  }
 }
